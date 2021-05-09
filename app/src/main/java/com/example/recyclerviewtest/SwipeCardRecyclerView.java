@@ -25,6 +25,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 
+
+
 public class SwipeCardRecyclerView extends RecyclerView {
     private float mTopViewX;
     private float mTopViewY;
