@@ -24,9 +24,6 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * Created by WangXiandeng on 2016/11/3.
- */
 
 public class SwipeCardRecyclerView extends RecyclerView {
     private float mTopViewX;

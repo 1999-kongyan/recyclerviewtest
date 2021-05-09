@@ -62,6 +62,7 @@ public class MyAdapter extends SwipeCardAdapter<MyAdapter.MyHolder> {
             if(i == 0) {
                 mImageView.setImageResource(R.drawable.test_big_picture);
             }else  mImageView.setImageResource(R.drawable.backgd);
+
             mButton.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {

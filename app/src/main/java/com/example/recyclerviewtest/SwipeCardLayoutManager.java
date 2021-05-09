@@ -7,9 +7,7 @@ import android.view.ViewGroup;
 
 import androidx.recyclerview.widget.RecyclerView;
 
-/**
- * Created by WangXiandeng on 2016/11/3.
- */
+
 
 public class SwipeCardLayoutManager extends RecyclerView.LayoutManager {
     @Override

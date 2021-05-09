@@ -4,9 +4,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
-/**
- * Created by WangXiandeng on 2016/11/3.
- */
+
 
 public abstract class SwipeCardAdapter<VH extends RecyclerView.ViewHolder> extends RecyclerView.Adapter<VH> {
     protected List mList;
