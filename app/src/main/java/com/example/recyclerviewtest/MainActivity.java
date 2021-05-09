@@ -29,12 +29,12 @@ public class MainActivity extends AppCompatActivity {
         mRecyclerView.setAdapter(mAdapter);
         mRecyclerView.setRemovedListener(new ItemRemovedListener() {
             @Override
-            public void onRightRemoved() {
+            public void onRightRemoved() {  //右划响应逻辑
 //                Toast.makeText(MainActivity.this, list.get(list.size() - 1) + " was right removed", Toast.LENGTH_SHORT).show();
             }
 
             @Override
-            public void onLeftRemoved() {
+            public void onLeftRemoved() {  //左划响应逻辑
 //                Toast.makeText(MainActivity.this, list.get(list.size() - 1) + " was left removed", Toast.LENGTH_SHORT).show();
             }
         });
