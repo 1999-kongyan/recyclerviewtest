@@ -1,5 +1,8 @@
 package com.example.recyclerviewtest;
 
+import android.util.Log;
+import android.widget.Toast;
+
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
@@ -15,12 +18,17 @@ public abstract class SwipeCardAdapter<VH extends RecyclerView.ViewHolder> exten
 
     /**
      * 删除最顶部Item
+     * 当只剩最后一张时，不会删除
      */
 
     public void delTopItem() {
         int position = getItemCount() - 1;
-        mList.remove(position);
-        notifyItemRemoved(position);
+        if(position > 1) {
+            mList.remove(position);
+            notifyItemRemoved(position);
+        }else{
+            Log.d("DEL","最后一张了");
+        }
     }
 
     @Override

@@ -25,8 +25,9 @@ import java.util.Random;
 public class MyAdapter extends SwipeCardAdapter<MyAdapter.MyHolder> {
     private Context mContext;
 
+
     public MyAdapter(Context context, List<String> list) {
-        super(list);
+       super(list);
         mContext = context;
     }
 
